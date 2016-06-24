@@ -1,0 +1,106 @@
+nav{
+	display: none;
+}
+.container{
+	height: 100%;
+	margin: 0px auto;
+	max-width: 1192px;
+	/*background: rgba(245,245,245,1);*/
+	padding: 10px 20px;
+	/*border: 1px solid #eee;*/ /* Параметры рамки */
+	-moz-box-sizing: border-box; /* Для Firefox */  
+	box-sizing: border-box; /* Ширина блока с полями */
+}
+.header{
+	margin: 50px 0px;
+}
+h1{
+	font-weight: 300;
+	font-size: 19px;
+	margin: 15px 5px;
+	/*border-bottom: 1px solid #eee;*/
+}
+h2{
+	font-weight: 300;
+	font-size: 17px;
+	margin: 15px 5px;
+	/*border-bottom: 1px solid #eee;*/
+}
+.tab_content{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: left;
+	justify-content: left;
+	-webkit-align-items: left;
+	align-items: left;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	/*border: 1px solid #eee;*/
+	-moz-box-sizing: border-box; /* Для Firefox */  
+	box-sizing: border-box; /* Ширина блока с полями */
+}
+.content {
+	-webkit-align-self: stretch;
+	align-self: stretch;
+	overflow: hidden;
+	padding: 0px 5px 10px 5px;
+	margin: 0px 0px 0px 0px;
+	width: 33.33%;
+	height: 220px;
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	/*border: 1px solid #eee;*/
+	-moz-box-sizing: border-box; /* Для Firefox */  
+	box-sizing: border-box; /* Ширина блока с полями */
+	background-size: 100px auto;
+	vertical-align: middle;
+
+}
+
+.item{
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid #eee;*/
+}
+
+.in{
+	display: none;
+}
+
+.content:hover .in{
+	display: block;
+	background: rgba(240,240,240,.6);
+}
+
+.content:hover .out{
+	display: none;
+}
+@media screen and (max-width: 960px) {
+	/*.codrops-header h1 {
+		font-size: 3em;
+	}*/
+	.content {
+		width: 50%;
+	}
+	/*.content--related {
+		font-size: 0.9em;
+	}*/
+}
+@media screen and (max-width: 550px) {
+	/*.codrops-header h1 {
+		font-size: 3em;
+	}*/
+	.content {
+		width: 100%;
+	}
+	/*.content--related {
+		font-size: 0.9em;
+	}*/
+}
