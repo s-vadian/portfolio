@@ -52,7 +52,7 @@ h2{
 	align-self: stretch;
 	overflow: hidden;
 	padding: 0px;
-	margin: 0px 0px 30px 0px;
+	margin: 0px 0px 60px 0px;
 	position: relative;
 	display: -webkit-flex;
 	display: flex;
@@ -71,10 +71,11 @@ h2{
 }
 #tab1{
 	width: 60%;
-	padding: 0px 20px 0px 0px;
+	padding: 0px 30px 0px 0px;
 }
 #tab2{
 	width: 40%;
+	padding: 0px 0px 0px 30px;
 }
 .tab_content{
 	display: -webkit-flex;
