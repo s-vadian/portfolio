@@ -12,7 +12,7 @@ nav{
 	box-sizing: border-box; /* Ширина блока с полями */
 }
 .header{
-	margin: 50px 0px;
+	margin: 40px 0px;
 	/*padding: -2px;*/
 	/*border: 1px solid #eee;*/
 	/*border-bottom: 1px solid #eee;*/
@@ -32,7 +32,7 @@ h2{
 	font-weight: 300;
 	font-size: 17px;
 	margin: 0px 0px 15px 0px;
-	border-bottom: 1px solid #eee;
+	/*border-bottom: 1px solid #eee;*/
 }
 .tab-row{
 	display: -webkit-flex;
@@ -52,7 +52,7 @@ h2{
 	align-self: stretch;
 	overflow: hidden;
 	padding: 0px;
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 30px 0px;
 	position: relative;
 	display: -webkit-flex;
 	display: flex;
@@ -71,6 +71,7 @@ h2{
 }
 #tab1{
 	width: 60%;
+	padding: 0px 20px 0px 0px;
 }
 #tab2{
 	width: 40%;
