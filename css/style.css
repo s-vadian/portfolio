@@ -20,7 +20,7 @@ nav{
 h1{
 	display: inline-block;
 	vertical-align: top;
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 19px;
 	margin: 15px 0px;
 	/*border: 1px solid #eee;*/
@@ -29,10 +29,26 @@ h2{
 	display: inline-block;
 	vertical-align: top;
 	/*height: auto;*/
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 17px;
 	margin: 0px 0px 15px 0px;
 	/*border-bottom: 1px solid #eee;*/
+}
+p{
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+	position: relative;
+	width: 100%;
+	font-size: 15px;
+}
+p.p_name{
+	font-weight: 500;
+	color: rgba(0,0,0,.8);
+
+}
+p.no_margin{
+	margin: 0px 0px 0px 0px;
 }
 .tab-row{
 	display: -webkit-flex;
@@ -135,7 +151,7 @@ h2{
 	background-size: 100px auto;
 	vertical-align: middle;
 	text-align: center;
-	border: 1px solid #eee;
+	border: 1px solid #d6d6d6;
 
 	font-weight: 300;
 }

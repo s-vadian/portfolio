@@ -1,0 +1,35 @@
+label{
+	display: block;
+	position: relative;
+	width: 400px;
+	padding: 12px 0px;
+}
+input[type="text"]{
+	margin: 0px;
+	width: 400px;
+	height: 25px;
+	padding: 5px 10px;
+	outline: none;
+}
+input[type="submit"]{
+	width: 160px;
+	height: 39px;
+}
+/*suggestions*/
+#search-client-result{
+	display: block;
+	position: relative;
+	left: 0px;
+}
+#search-client-result {
+	border-collapse: collapse;
+}
+#search-client-result tr td{
+	width: 392px;
+	padding: 8px 15px;
+	cursor: pointer;
+}
+.highlightrow{
+	color: #EC2E83;
+}
+/*suggestions*/

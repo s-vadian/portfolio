@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Подсказки</title>
+	<script src="../js/jquery.js"></script>
+	<script src="js/lib.js"></script>
+	<link rel="stylesheet" href="fonts/roboto/fonts.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="css/suggestions.css">
+</head>
+<body>
+	Поиск клиента
+	<br><br>
+	<label for="key">Введите ФИО или ИИН</label>
+	<input id="key" name="key" type="text" placeholder="ФИО/ИИН" oninput="getSuggestions(this.value)" onkeyup="handleKeyUp(event)"><i id="matches" title="Количество найденых соответствий"></i>
+	<div id="result"></div>
+</body>
+</html>
