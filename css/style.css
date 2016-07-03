@@ -197,6 +197,36 @@ p.no_margin{
 .content:hover .out{
 	opacity: 0;
 }
+
+
+footer.footer{
+	display: block;
+	position: relative;
+	border-top: 1px solid #eee;
+	padding: 80px 0px;
+	margin: 80px 0px 0px;
+	font-size: 15px;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 960px) {
 	/*.codrops-header h1 {
 		font-size: 3em;
