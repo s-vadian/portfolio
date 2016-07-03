@@ -238,9 +238,11 @@ footer.footer{
 	}
 	#tab1{
 		width: 60%;
+		padding: 0px 30px 0px 0px;
 	}
 	#tab2{
 		width: 40%;
+		padding: 0px 0px 0px 30px;
 	}
 
 	/*.content--related {
@@ -256,9 +258,11 @@ footer.footer{
 	}
 	#tab1{
 		width: 100%;
+		padding: 0px 0px 0px 0px;
 	}
 	#tab2{
 		width: 100%;
+		padding: 0px 0px 0px 0px;
 	}
 	/*.content--related {
 		font-size: 0.9em;
